@@ -1,0 +1,12 @@
+# Terraform sensitive files
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# AWS credentials
+.aws/
+credentials
